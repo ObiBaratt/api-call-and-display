@@ -1,0 +1,55 @@
+.innerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding-left: 1rem;
+    width: 95%;
+}
+
+.reviewCard {
+    outline: 10px solid #1DA1F2;
+    margin-bottom: 3rem;
+    min-width: 95%;
+    max-width: 600px;
+}
+
+.stars {
+    margin-bottom: -4rem;
+}
+
+.star {
+    color: #1DA1F2;
+    font-size: 6rem;
+}
+
+.noStar {
+    font-size: 6rem;
+}
+
+.author {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }

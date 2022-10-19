@@ -1,0 +1,24 @@
+li {
+    list-style: none;
+}
+
+.reviewSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loadMore {
+    width: 60%;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+
+  .loadMore:hover {
+    background-color:#1DA1F2;
+    color: white;
+  }

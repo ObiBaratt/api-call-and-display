@@ -1,0 +1,14 @@
+.header {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border: 3px double black;
+    border-radius: 12px;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 1rem;
+}

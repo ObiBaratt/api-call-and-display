@@ -1,0 +1,23 @@
+#reviewContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.loadMore {
+  width: 30%;
+  max-width: 300px;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.loadMore:hover {
+  background-color: gray;
+  color: white;
+}

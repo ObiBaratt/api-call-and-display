@@ -1,0 +1,9 @@
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchItem {
+      margin: 1rem;
+  }
