@@ -7,7 +7,6 @@ import "./Reviews.css";
 
 import generateURL from "../../utils/helpers/generateURL";
 
-
 const Reviews = ({ rating, keyword, title, regionName, start, end }: ReviewProps) => {
   const [page, setPage] = useState<number>(0);
   const [url, setUrl] = useState<URL>(new URL(generateURL(rating, keyword, page, start, end)));
@@ -34,11 +33,8 @@ const Reviews = ({ rating, keyword, title, regionName, start, end }: ReviewProps
         setTotal(data.total);
       }).catch((err) => { alert(err.message) })
     }
-    // eslint-disable-next-line
   }, [url]);
 
-// Fix logic to not try to display previous results.
-// Currently works to display new, but UI isn't great and it stops displaying old.
   const addDisplayed = () => {
     if (displayCount < 5) {
       setDisplayCount(5);
